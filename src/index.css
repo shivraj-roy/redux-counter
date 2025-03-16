@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font-family: "Dosis", sans-serif;
+   color: #fff6cc;
+   background-color: #002914;
+}
+
+button {
+   font: inherit;
+   cursor: pointer;
+   background-color: #ff3c00;
+   border: 1px solid #ff3c00;
+   color: #fff6cc;
+   padding: 0.5rem 1.5rem;
+   border-radius: 6px;
+}
+
+button:hover,
+button:active {
+   background-color: #ff850a;
+   border-color: #ff850a;
+}
