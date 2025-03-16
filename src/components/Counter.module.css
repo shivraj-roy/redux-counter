@@ -24,7 +24,17 @@
    text-transform: uppercase;
    color: #002914;
    margin: 0;
-   font-size: 1rem;
+   font-size: 1.8rem;
+}
+
+.buttons button {
+   margin: 1rem;
+   padding: 0.5rem 1rem;
+   border-radius: 50px;
+   border: none;
+   cursor: pointer;
+   font-size: 1.2rem;
+   font-weight: bold;
 }
 
 .value {
