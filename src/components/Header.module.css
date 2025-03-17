@@ -1,48 +1,48 @@
 .header {
-  width: 100%;
-  height: 5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #3c0080;
-  color: white;
-  padding: 0 10%;
+   width: 100%;
+   height: 5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #ff3c00;
+   color: white;
+   padding: 0 10%;
 }
 
 .header ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  align-items: center;
+   display: flex;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   align-items: center;
 }
 
 .header li {
-  margin: 0 1rem;
+   margin: 0 1rem;
 }
 
 .header a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.25rem;
+   text-decoration: none;
+   color: #fff6cc;
+   font-size: 1.25rem;
 }
 
 .header a:hover,
 .header a:active {
-  color: #b864da;
+   color: #002914;
 }
 
 .header button {
-  font-size: 1.25rem;
-  background-color: #ffbb00;
-  border: 1px solid #ffbb00;
-  padding: 0.5rem 1.5rem;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  color: #2c2922;
+   font-size: 1.25rem;
+   background-color: #002914;
+   border: 1px solid #002914;
+   padding: 0.5rem 1.5rem;
+   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+   color: #ff3c00;
 }
 
 .header button:hover,
 .header button:active {
-  background-color: #ffa600;
-  border-color: #ffa600;
+   background-color: #fff6cc;
+   border-color: #fff6cc;
 }

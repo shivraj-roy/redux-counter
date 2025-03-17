@@ -37,6 +37,11 @@
    font-weight: bold;
 }
 
+.buttons button:hover {
+   background-color: #002914;
+   color: #fff;
+}
+
 .value {
    font-size: 2rem;
    color: #002914;
