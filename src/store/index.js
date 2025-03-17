@@ -6,11 +6,25 @@ const counterReducer = (state = { counter: 0 }, action) => {
          counter: state.counter + 1,
       };
    }
+
    if (action.type === "decrement") {
       return {
          counter: state.counter - 1,
       };
    }
+
+   if (action.type === "incrementBy5") {
+      return {
+         counter: state.counter + action.amount,
+      };
+   }
+
+   if (action.type === "reset") {
+      return {
+         counter: 0,
+      };
+   }
+
    return state;
 };
 
